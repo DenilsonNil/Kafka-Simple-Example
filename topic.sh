@@ -1,0 +1,1 @@
+kafka-topics --bootstrap-server localhost:29092 --create --topic kualit-tickets --partitions 16

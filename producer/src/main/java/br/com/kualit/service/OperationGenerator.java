@@ -33,7 +33,7 @@ public class OperationGenerator {
     private Operation newOperation() {
         long clientId = random.nextInt();
         int totalOfTickets = random.nextInt();
-        return new Operation(operationId++, clientId, totalOfTickets, ticketPrice.multiply(BigDecimal.valueOf(totalOfTickets)));
+        return new Operation(random.nextLong(), clientId, totalOfTickets, ticketPrice.multiply(BigDecimal.valueOf(totalOfTickets)));
     }
 
 

@@ -35,6 +35,4 @@ public class OperationGenerator {
         int totalOfTickets = random.nextInt();
         return new Operation(random.nextLong(), clientId, totalOfTickets, ticketPrice.multiply(BigDecimal.valueOf(totalOfTickets)));
     }
-
-
 }
